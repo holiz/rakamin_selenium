@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testing:project xmlns:testing="http://maven.apache.org/POM/4.0.0"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <testing:modelVersion>4.0.0</testing:modelVersion>
+
+    <testing:groupId>org.example</testing:groupId>
+    <testing:artifactId>rakamin_selenium</testing:artifactId>
+    <testing:version>1.0-SNAPSHOT</testing:version>
+
+    <testing:properties>
+        <testing:maven.compiler.source>21</testing:maven.compiler.source>
+        <testing:maven.compiler.target>21</testing:maven.compiler.target>
+        <testing:project.build.sourceEncoding>UTF-8</testing:project.build.sourceEncoding>
+    </testing:properties>
+    <testing:dependencies>
+      <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+      <testing:dependency>
+        <testing:groupId>org.seleniumhq.selenium</testing:groupId>
+        <testing:artifactId>selenium-java</testing:artifactId>
+        <testing:version>4.10.0</testing:version>
+      </testing:dependency>
+      <!-- https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine -->
+      <testing:dependency>
+        <testing:groupId>org.junit.vintage</testing:groupId>
+        <testing:artifactId>junit-vintage-engine</testing:artifactId>
+        <testing:version>5.10.0</testing:version>
+        <testing:scope>test</testing:scope>
+      </testing:dependency>
+      <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <testing:dependency>
+            <testing:groupId>io.github.bonigarcia</testing:groupId>
+            <testing:artifactId>webdrivermanager</testing:artifactId>
+            <testing:version>5.4.1</testing:version>
+        </testing:dependency>
+
+    </testing:dependencies>
+</testing:project>
