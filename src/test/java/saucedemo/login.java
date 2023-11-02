@@ -31,6 +31,5 @@ public class login {
         submit.isDisplayed();
         submit.click();
 
-
     }
 }
